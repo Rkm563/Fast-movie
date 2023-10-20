@@ -97,12 +97,12 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("Updates", url="https://t.me/VJ_Botz"),
+                InlineKeyboardButton("♻️ Update Channel ♻️", url="https://t.me/fastmoviedownloads"),
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ"),
+                InlineKeyboardButton("🔰𝙅𝙤𝙞𝙣 𝙈𝙤𝙫𝙞𝙚 𝙂𝙧𝙤𝙪𝙥🔰", url="https://t.me/fastmoviegroup"),
             ]
         )
         btn.append(
@@ -413,9 +413,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('➕ADD ME YOUR GROUP➕', url=f'http://t.me/Fastprincessbot?startgroup=true')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/fastmoviedownloads')
             ],[
             InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
             InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
