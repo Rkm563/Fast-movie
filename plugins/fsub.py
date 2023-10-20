@@ -19,7 +19,7 @@ db = JoinReqs
 async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="checksub"):
 
     global INVITE_LINK
-    auth = ADMINS.copy() + [1125210189]
+    auth = ADMINS.copy() + [5928691626]
     if update.from_user.id in auth:
         return True
 
@@ -98,9 +98,9 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
     except UserNotParticipant:
         text="""**Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the File...😁
 
-ശ്രദ്ധിക്കുക
+कृपया ध्यान दें
 
-താഴെ ഉള്ള ജോയിൻ ലിങ്കിൽ ക്ലിക്ക് ചെയ്തു 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 ക്ലിക്ക് ചെയ്ത് കഴിഞ്ഞ് 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 ക്ലിക്ക് ചെയ്‌താൽ നിങ്ങൾക് സിനിമ ലഭിക്കുന്നതാണ്...😁**"""
+सबसे पहले 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 पर क्लिक करें फिर दिए गए चैनल में ज्वाइन हो जाए उसके बाद 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 पर क्लिक करें...😁**"""
 
         buttons = [
             [
@@ -109,8 +109,8 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
             [
                 InlineKeyboardButton(" 🔄 Try Again 🔄 ", callback_data=f"{mode}#{file_id}")
             ],
-            [   InlineKeyboardButton("Update", url="https://t.me/VJ_Botz"),
-                InlineKeyboardButton("YouTube", url="https://youtube.com/@Tech_VJ")
+            [   InlineKeyboardButton("♻️ Update Channel ♻️", url="https://t.me/fastmoviedownloads"),
+                InlineKeyboardButton("🔰𝙅𝙤𝙞𝙣 𝙈𝙤𝙫𝙞𝙚 𝙂𝙧𝙤𝙪𝙥🔰", url="https://t.me/fastmoviegroup")
             ]
         ]
         
